@@ -13,6 +13,8 @@ const newses = async (req, res) => {
     res.status(200).send({
       news,
     });
+
+    g
   } catch (error) {
     res.status(400).send({
       error,
